@@ -1124,3 +1124,46 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+
+.catalogo_section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.catalogo_section .heading_container {
+  margin-bottom: 30px;
+}
+
+.catalogo_item {
+  margin-bottom: 30px;
+}
+
+.catalogo_img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Opcional: para bordes redondeados */
+}
+
+
+.how_we_work_section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.how_we_work_section .heading_container {
+  margin-bottom: 20px;
+}
+
+.how_we_work_section .btn-1 {
+  background-color: #031D49; /* Color del botón */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease;
+}
+
+.how_we_work_section .btn-1:hover {
+  background-color: #02325f; /* Cambio de color al pasar el mouse */
+}

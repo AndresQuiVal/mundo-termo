@@ -1149,12 +1149,69 @@ a:focus {
 .how_we_work_section {
   text-align: center;
   /* height: 400px; */
-  padding: 300px 0;
+  padding: 300px 10px;
   background-image: url(../images/videoyesido.gif);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
 }
+
+.personalization_section {
+  text-align: center;
+  /* height: 400px; */
+  padding: 300px 10px;
+  background-image: url(../images/mundotermo-git.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.personalization_section_2 {
+  text-align: center;
+  /* height: 400px; */
+  padding: 300px 10px;
+  background-image: url(../images/mundotermo-gif-2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.how_we_work_section_2 {
+  text-align: center;
+  /* height: 400px; */
+  padding: 300px 10px;
+  background-image: url(../images/mundotermo-gif-2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.personalization_section, .personalization_section_2 {
+  margin-bottom: 20px;
+}
+
+.personalization_section .btn-1 {
+  background-color: #031D49; /* Color del botón */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease;
+}
+
+.personalization_section_2 .btn-1 {
+  background-color: #031D49; /* Color del botón */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease;
+}
+
+.personalization_section .personalization_section_2 .btn-1:hover {
+  background-color: #02325f; /* Cambio de color al pasar el mouse */
+}
+
 
 .how_we_work_section .heading_container {
   margin-bottom: 20px;
@@ -1184,4 +1241,35 @@ a:focus {
 
 .img-box-head img {
   animation: rotateImage 10s infinite linear;
+}
+
+
+.no-margin {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/* Estilo para la sección del eslogan */
+.slogan_section {
+  background-color: #f8f9fa; /* Fondo claro para resaltar el eslogan */
+  padding: 20px 0; /* Espaciado superior e inferior */
+}
+
+.slogan_section h2 {
+  color: #031D49; /* Color del texto del eslogan */
+  text-align: center; /* Centrar el texto */
+  font-family: 'Poppins', sans-serif; /* Fuente del eslogan */
+  font-weight: 700; /* Grosor de la fuente */
+  font-size: 24px; /* Tamaño de la fuente */
+  margin: 0 auto; /* Margen automático para centrar */
+  max-width: 800px; /* Ancho máximo del texto del eslogan */
+  padding: 10px; /* Espaciado interno */
+  line-height: 1.5; /* Espaciado entre líneas */
+}
+
+@media (max-width: 768px) {
+  .slogan_section h2 {
+    font-size: 20px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+  }
 }
